@@ -1,0 +1,2 @@
+# synthseth
+Synth sETH token
