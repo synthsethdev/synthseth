@@ -39,8 +39,5 @@
 
 `synthetic`, `erc20`
 
----
 
-## Logo
 
-![Synth sETH Logo](logo.png)
