@@ -31,7 +31,7 @@
 ## Socials
 
 - [Twitter](https://twitter.com/syntheth)  
-- [GitHub] (https://github.com/synthsethdev/synthseth))
+- [GitHub](https://github.com/synthsethdev/synthseth)
 
 ---
 
