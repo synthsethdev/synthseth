@@ -83,9 +83,6 @@ The smart contract source code is available under `/contracts` for transparency 
 ```text
 /contracts
  ├── SynthSETH.sol        # ERC20 token implementation
- ├── interfaces/
- ├── libraries/
- └── README.md
 
 
 Fully verified on Etherscan
