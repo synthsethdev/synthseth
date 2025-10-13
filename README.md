@@ -1,4 +1,4 @@
-# Synth sETH (sETH) Token
+# Token Synth sETH (sETH)
 
 ![Logo](logo.png)
 
