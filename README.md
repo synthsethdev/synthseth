@@ -86,6 +86,8 @@ The smart contract source code is available under `/contracts` for transparency 
  ├── interfaces/
  ├── libraries/
  └── README.md
+
+
 Fully verified on Etherscan
 
 No minting, pausing, or upgrade functions
