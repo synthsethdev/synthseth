@@ -2,69 +2,112 @@
 
 ![Logo](logo.png)
 
+---
+
 ## Overview
 
-**Synth sETH (sETH)** is a standard ERC20 utility token deployed on the Ethereum blockchain. It operates with a fixed, unchangeable total supply, ensuring no new tokens can ever be created.
+**Synth sETH (sETH)** is a verified ERC-20 utility token deployed on the Ethereum mainnet.  
+It operates with a **fixed, immutable total supply**, ensuring no additional minting or inflation over time.
 
-The primary use case of sETH is to function as a liquid asset within the decentralized finance (DeFi) ecosystem. Its value is established and maintained through its trading pair with Wrapped Ether (WETH) on decentralized exchanges like Uniswap. This mechanism allows sETH to serve as a straightforward and transparent representation of Ethereum's value, suitable for various DeFi applications and trading strategies.
-- **Token Name:** Synth sETH  
-- **Symbol:** sETH  
-- **Type:** ERC20  
-- **Decimals:** 18  
-- **Contract Address:** [0xf119ada773624761108a12bc20503b2195727061](https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061)  
-- **Chain ID:** 1 (Ethereum Mainnet)   
-
-
-1. Vision. 
-
-To provide a foundational, no-frills utility token that enhances liquidity and composability in the Ethereum DeFi space.
-
-Problem: The DeFi landscape is often populated with complex tokenomic models involving taxes, rebasing, or inflationary mechanisms. While innovative, these can create barriers to entry and unpredictability for users and developers. There is a persistent need for simple, standard assets that act as reliable building blocks for trading and protocol integration.
-
-Solution: sETH addresses this by being a standard, fixed-supply ERC20 token. Its simplicity is its core feature. By avoiding complex on-chain logic, it ensures predictability, low gas overhead for transfers, and seamless integration with all standard DeFi protocols and wallets.
-
-2. Tokenomics & Distribution.
-
-The sETH tokenomic model is designed for long-term sustainability and community-focused growth. The allocation is transparent and serves distinct purposes within the ecosystem.
-
-90% - Community & Ecosystem Growth (90,000,000 sETH): This majority share is allocated for strategic growth, including over-the-counter (OTC) sales to partners, marketing campaigns, and funding for future development as decided by the community.
-5% - Initial Liquidity (5,000,000 sETH): A portion of the supply used to create the initial WETH/sETH trading pair on Uniswap, enabling public market access from day one.
-5% - Team & Development (5,000,000 sETH): Allocated to the founding team, subject to a vesting schedule to ensure long-term commitment to the project's success.
-
-3. Roadmap.
-
-The project roadmap is divided into three strategic phases, focusing on building a strong foundation, growing visibility, and expanding the ecosystem.
-
-Phase 1 (Q3 2025): Focus on core infrastructure, including contract deployment, initial liquidity, and establishing an official web and social presence.
-
-Phase 2 (Q4 2025): Emphasis on building trust and visibility through liquidity locking and applications to major data aggregators like CoinGecko and CoinMarketCap.
-
-Phase 3 (2026): Exploration of ecosystem expansion, including potential cross-chain functionality and integrations with other DeFi platforms.
+The primary use case of **sETH** is to serve as a **liquid synthetic representation of Ethereum (ETH)** within the DeFi ecosystem.  
+Its value is established through the **WETH/sETH pair** on decentralized exchanges such as **Uniswap**, providing transparent and market-driven price discovery.
 
 ---
 
-## Website
+### Core Details
 
-(https://www.syntheth.com/)
-
----
-
-## Explorer
-
-(https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061)
-
----
-
-## Socials
-
-- [Twitter](https://twitter.com/syntheth)  
-- [GitHub](https://github.com/synthsethdev/synthseth)
+| Parameter | Value |
+|------------|--------|
+| **Token Name** | Synth sETH |
+| **Symbol** | sETH |
+| **Type** | ERC20 |
+| **Decimals** | 18 |
+| **Total Supply** | 100,000,000 sETH |
+| **Contract Address** | [0xF119ADa773624761108A12bc20503B2195727061](https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061) |
+| **Network** | Ethereum Mainnet (Chain ID: 1) |
+| **Compiler** | Solidity ^0.8.x |
+| **License** | MIT |
+| **Verified on** | [Etherscan](https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061) |
 
 ---
 
-## Tags
+## 1. Vision
 
-`synthetic`, `erc20`
+To provide a **foundational, no-frills utility token** that enhances liquidity and composability in the Ethereum DeFi space.
 
+**Problem:**  
+The DeFi landscape is saturated with complex tokenomics—rebasing, taxes, reflections, and inflationary mechanisms.  
+While innovative, they often introduce barriers to integration and reduce predictability.
 
+**Solution:**  
+sETH focuses on **simplicity and reliability**.  
+A clean, minimal ERC20 implementation ensures:
+- Predictable behavior and gas efficiency,  
+- Seamless integration with all major wallets and protocols,  
+- Trustless operation without admin control or upgradeability.
 
+---
+
+## 2. Tokenomics & Distribution
+
+| Allocation | Percentage | Amount (sETH) | Purpose |
+|-------------|-------------|----------------|----------|
+| **Community & Ecosystem Growth** | 90% | 90,000,000 | Strategic partnerships, liquidity incentives, marketing, and community grants |
+| **Initial Liquidity** | 5% | 5,000,000 | Creation of the initial WETH/sETH pool on Uniswap |
+| **Team & Development** | 5% | 5,000,000 | Team allocation under vesting schedule to ensure long-term alignment |
+
+---
+
+## 3. Roadmap
+
+**Phase 1 (Q3 2025)**  
+→ Smart contract deployment  
+→ Initial liquidity & verification  
+→ Launch of official web presence  
+
+**Phase 2 (Q4 2025)**  
+→ Liquidity lock  
+→ Listings on CoinGecko & CoinMarketCap  
+→ Growth of DeFi integrations  
+
+**Phase 3 (2026)**  
+→ Cross-chain expansion (e.g., Arbitrum, Solana bridge)  
+→ Ecosystem partnerships and protocol utilities  
+
+---
+
+## 🔍 Smart Contract Repository
+
+The smart contract source code is available under `/contracts` for transparency and community verification.
+
+```bash
+/contracts
+ ├── SynthSETH.sol        # ERC20 token implementation
+ ├── interfaces/
+ ├── libraries/
+ └── README.md
+Fully verified on Etherscan
+
+No minting, pausing, or upgrade functions
+
+Immutable total supply defined at deployment
+
+⚠️ Security Notice:
+The Synth sETH contract contains no administrative or owner privileges.
+All supply and functionality are fixed at deployment to maintain full decentralization.
+
+🌐 Website
+👉 https://www.syntheth.com
+
+🧭 Explorer
+🔗 Etherscan https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061
+
+💬 Socials
+Twitter (X) https://twitter.com/syntheth
+
+🏷️ Tags
+synthetic, erc20, defi, ethereum, liquidity
+
+⚖️ License
+This repository and its contents are licensed under the MIT License.
+© 2025 Synth sETH Core Team — All rights reserved.
