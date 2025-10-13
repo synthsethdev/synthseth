@@ -80,7 +80,7 @@ A clean, minimal ERC20 implementation ensures:
 
 The smart contract source code is available under `/contracts` for transparency and community verification.
 
-```bash
+```text
 /contracts
  ├── SynthSETH.sol        # ERC20 token implementation
  ├── interfaces/
