@@ -86,24 +86,24 @@ The smart contract source code is available under `/contracts` for transparency 
  ```
 
 
-Fully verified on Etherscan
+## Fully verified on Etherscan
 
-No minting, pausing, or upgrade functions
+## No minting, pausing, or upgrade functions
 
-Immutable total supply defined at deployment
+## Immutable total supply defined at deployment
 
 ⚠️ Security Notice:
 The Synth sETH contract contains no administrative or owner privileges.
 All supply and functionality are fixed at deployment to maintain full decentralization.
 
 🌐 Website
-[https://www.syntheth.com](https://www.syntheth.com)
+[https://www.syntheth.com] (https://www.syntheth.com)
 
 🧭 Explorer
-[Etherscan — Synth sETH](https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061)
+[Etherscan] (https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061)
 
 💬 Socials
-[Twitter (X)](https://twitter.com/syntheth)
+[Twitter (X)] (https://twitter.com/syntheth)
 
 🏷️ Tags
 synthetic, erc20, defi, ethereum, liquidity
