@@ -86,11 +86,11 @@ The smart contract source code is available under `/contracts` for transparency 
  ```
 
 
-## Fully verified on Etherscan
+### Fully verified on Etherscan
 
-## No minting, pausing, or upgrade functions
+### No minting, pausing, or upgrade functions
 
-## Immutable total supply defined at deployment
+### Immutable total supply defined at deployment
 
 ⚠️ Security Notice:
 The Synth sETH contract contains no administrative or owner privileges.
