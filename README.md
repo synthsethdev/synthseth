@@ -45,7 +45,7 @@ Phase 3 (2026): Exploration of ecosystem expansion, including potential cross-ch
 
 ## Website
 
-- [Website] (https://www.syntheth.com/)
+(https://www.syntheth.com/)
 
 ---
 
