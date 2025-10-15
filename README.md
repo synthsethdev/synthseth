@@ -97,7 +97,7 @@ The Synth sETH contract contains no administrative or owner privileges.
 All supply and functionality are fixed at deployment to maintain full decentralization.
 
 🌐 Website
-[https://www.syntheth.com] (https://www.syntheth.com)
+(https://www.syntheth.com)
 
 🧭 Explorer
 [Etherscan] (https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061)
