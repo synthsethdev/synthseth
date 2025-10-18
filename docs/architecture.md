@@ -35,6 +35,7 @@ It is designed for use within the Ethereum DeFi ecosystem as a liquid, predictab
 ## Flow Diagram
 ```mermaid
 graph TD
-A[User Wallet] -->|Swap| B[Uniswap Pool (WETH/sETH)]
-B -->|Liquidity| C[Synth sETH Contract]
-C -->|Transfer| D[DeFi Protocols (Vaults, Lending, etc.)]```
+    A[User Wallet] -->|Swap| B[Uniswap Pool (WETH/sETH)]
+    B -->|Provides Liquidity| C[Synth sETH Contract]
+    C -->|Transfers| D[DeFi Protocols (Vaults, Lending, etc.)]
+```
