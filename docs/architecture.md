@@ -55,6 +55,8 @@ Network	Contract Address - Verified ✅
 
 Ethereum Mainnet - [0xF119ADa773624761108A12bc20503B2195727061](https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061)
 
+## Verification Command
+
 ```npx hardhat verify --network mainnet 0xF119ADa773624761108A12bc20503B2195727061```
 
 ## Deployment Parameters
