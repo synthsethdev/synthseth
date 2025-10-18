@@ -18,7 +18,7 @@ The token is fully **ERC-20 compatible** and suitable for DeFi.
 
 ## 2. Ethers.js Usage Examples
 
-### Connect to the contract
+## Connect to the contract
 ```js
 import { ethers } from "ethers";
 
@@ -34,8 +34,10 @@ const sETH = new ethers.Contract(
   abi,
   signer
 );
-Get token balance
-js
+```
+
+## Get token balance
+```js
 const balance = await sETH.balanceOf("0xYourWallet");
 console.log("Balance:", ethers.formatUnits(balance, 18));
 Transfer tokens
@@ -46,21 +48,21 @@ const tx = await sETH.connect(signer).transfer(
 );
 await tx.wait();
 console.log("Sent 10 sETH");
-
-3. Integration Use Cases
+```
+## Integration Use Cases
 Integration	Example
 DEX	Create a WETH/sETH pool on Uniswap
 
 Other integrations such as lending, yield farming, and bridges may be added in the future.
 
-4. ABI Reference
+## ABI Reference
 The full ABI can be generated from the contract source code or obtained from the verified contract on Etherscan:
 
 Contract Address: 0xF119ADa773624761108A12bc20503B2195727061
 
 The ABI is required to interact with the contract using scripts, wallets, or other applications.
 
-5. Post-Deployment Actions
+## Post-Deployment Actions
 Add the token to MetaMask (Add Token → Custom → Contract Address)
 
 Create a WETH/sETH pool on Uniswap
