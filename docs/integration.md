@@ -69,7 +69,8 @@ Create a WETH/sETH pool on Uniswap
 
 Optionally, lock or manage initial liquidity via a trusted service (e.g., Team Finance or Unicrypt)
 
-🧩 Summary
-File	Purpose	Audience	Example Contents
-/docs/architecture.md	How the token is structured (internal architecture and design)	Auditors, DevOps	Contract logic, flow diagram, design philosophy
-/docs/integration.md	How to use the token (integration and code examples)	Developers, DeFi partners	JS examples, MetaMask, Uniswap, ABI
+| File                    | Purpose                                       | Audience                  | Example Contents                                |
+| ----------------------- | --------------------------------------------- | ------------------------- | ----------------------------------------------- |
+| `/docs/architecture.md` | Internal architecture and design of the token | Auditors, DevOps          | Contract logic, flow diagram, design philosophy |
+| `/docs/integration.md`  | Practical integration and code examples       | Developers, DeFi partners | JS examples, MetaMask, Uniswap, ABI             |
+
