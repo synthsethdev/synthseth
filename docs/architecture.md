@@ -37,3 +37,22 @@ graph TD
     B -->|Liquidity Flow| C[Synth sETH Contract]
     C -->|Transfer| D[DeFi Protocols: Vaults, Lending, etc.]
 ```
+
+Design Principles
+
+Simplicity over complexity — minimal mechanics, no gimmicks.
+
+Predictability — fixed supply, no unexpected changes.
+
+Composability — fully compatible with all major DeFi protocols.
+
+Trustless operation — no centralized controls or admin privileges.
+
+Transparency — open-source code, verified contracts, and clear tokenomics.
+
+Addresses
+Network	Contract Address - Verified ✅
+Ethereum Mainnet - [0xF119ADa773624761108A12bc20503B2195727061](https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061)
+```npx hardhat verify --network mainnet 0xF119ADa773624761108A12bc20503B2195727061```
+
+
