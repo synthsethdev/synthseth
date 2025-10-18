@@ -26,16 +26,14 @@ It is designed for use within the Ethereum DeFi ecosystem as a liquid, predictab
 | Component | Purpose | Repository Path |
 |------------|----------|-----------------|
 | `SynthSETH.sol` | Core token logic | `/contracts/SynthSETH.sol` |
-| `Uniswap Pool (WETH/sETH)` | Market price discovery pair | `/scripts/deploy/deployLiquidity.js` |
 | `Docs` | Technical documentation | `/docs` |
-| `Tests` | Core functionality validation | `/tests` |
 
 ---
 
 ## Flow Diagram
 ```mermaid
 graph TD
-    A[User Wallet] -->|Swap| B[Uniswap Pool (WETH/sETH)]
-    B -->|Provides Liquidity| C[Synth sETH Contract]
-    C -->|Transfers| D[DeFi Protocols (Vaults, Lending, etc.)]
+    A[User Wallet] -->|Swap| B[Uniswap Pool: WETH ↔ sETH]
+    B -->|Liquidity Flow| C[Synth sETH Contract]
+    C -->|Transfer| D[DeFi Protocols: Vaults, Lending, etc.]
 ```
