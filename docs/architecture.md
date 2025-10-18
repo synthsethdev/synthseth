@@ -57,4 +57,13 @@ Ethereum Mainnet - [0xF119ADa773624761108A12bc20503B2195727061](https://ethersca
 
 ```npx hardhat verify --network mainnet 0xF119ADa773624761108A12bc20503B2195727061```
 
+## Deployment Parameters
+```Parameter	Value
+Token Name	Synth sETH
+Symbol	sETH
+Decimals	18
+Total Supply	100,000,000
+Owner	None (renounced)
+License	MIT```
+
 
