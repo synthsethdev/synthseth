@@ -125,6 +125,8 @@ By voting **Yes**, members authorize the DAO to manage the treasury according to
 - **DAO Space on Snapshot:** [https://snapshot.box/#/s:syntheth.eth](https://snapshot.box/#/s:syntheth.eth)  
 - **Gnosis Safe Treasury:** [0x0EEcea0A472EB4419bFf9D572cC4A906c80734e3](https://etherscan.io/address/0x0EEcea0A472EB4419bFf9D572cC4A906c80734e3)
 
+  
+
 **Fully verified on Etherscan**
 
 **No minting, pausing, or upgrade functions**
