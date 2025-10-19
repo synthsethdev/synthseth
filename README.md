@@ -144,7 +144,7 @@ All supply and functionality are fixed at deployment to maintain full decentrali
 [Etherscan] (https://etherscan.io/token/0xf119ada773624761108a12bc20503b2195727061)
 
 💬 Socials
-[Twitter (X)] (https://twitter.com/syntheth)
+[Twitter (X)](https://twitter.com/syntheth)  
 [Medium](https://medium.com/@sethsynth)
 
 
