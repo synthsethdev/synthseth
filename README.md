@@ -84,7 +84,46 @@ The smart contract source code is available under `/contracts` for transparency 
 /contracts
  ├── SynthSETH.sol        # ERC20 token implementation
  ```
+## 4. Syntheth DAO
 
+**Syntheth DAO** is a decentralized governance community that oversees the evolution of the **Syntheth ecosystem** and the **sETH token**.  
+DAO members collectively decide on protocol upgrades, treasury allocation, and strategic integrations, ensuring that the project remains **community-driven and transparent**.
+
+The DAO operates through a **Gnosis Safe multisignature wallet** and voting on **Snapshot**, providing trustless governance.
+
+### DAO Treasury
+
+The official treasury is the Gnosis Safe wallet:  
+**[0x0EEcea0A472EB4419bFf9D572cC4A906c80734e3](https://etherscan.io/address/0x0EEcea0A472EB4419bFf9D572cC4A906c80734e3)**  
+
+All operations require multisignature approval from the assigned admins.  
+The treasury will be used for:
+- Funding protocol development and integrations  
+- Covering operational and marketing expenses  
+- Supporting community initiatives  
+
+### 4.1 First Proposal: Approve DAO Treasury
+
+**Proposal Title:** Approve DAO Treasury for Syntheth  
+
+**Description:**  
+This proposal requests approval to designate the Gnosis Safe wallet above as the official treasury for Syntheth DAO.  
+By voting **Yes**, members authorize the DAO to manage the treasury according to these guidelines. Voting **No** rejects this proposal.
+
+**Voting:**  
+- Platform: [Snapshot](https://snapshot.box/#/s:syntheth.eth)  
+- Type: Single Choice (Yes / No)  
+- Voting Delay: 1 hour  
+- Voting Period: 3 days  
+
+💡 *Connect your wallet on Snapshot to participate in governance.*
+
+---
+
+### 🔗 Governance Links
+
+- **DAO Space on Snapshot:** [https://snapshot.box/#/s:syntheth.eth](https://snapshot.box/#/s:syntheth.eth)  
+- **Gnosis Safe Treasury:** [0x0EEcea0A472EB4419bFf9D572cC4A906c80734e3](https://etherscan.io/address/0x0EEcea0A472EB4419bFf9D572cC4A906c80734e3)
 
 **Fully verified on Etherscan**
 
