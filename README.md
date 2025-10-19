@@ -145,6 +145,7 @@ All supply and functionality are fixed at deployment to maintain full decentrali
 
 💬 Socials
 [Twitter (X)] (https://twitter.com/syntheth)
+[Medium] https://medium.com/@sethsynth)  
 
 🏷️ Tags
 synthetic, erc20, defi, ethereum, liquidity
