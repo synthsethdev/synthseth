@@ -61,12 +61,12 @@ A clean, minimal ERC20 implementation ensures:
 ## 3. Roadmap
 
 **Phase 1 (Q3 2025)**  
-→ Smart contract deployment  
-→ Initial liquidity & verification  
-→ Launch of official web presence  
+→ Smart contract deployment ✅    
+→ Initial liquidity & verification ✅    
+→ Launch of official web presence ✅    
 
 **Phase 2 (Q4 2025)**  
-→ Liquidity lock  
+→ Liquidity lock ✅ [View lock details](https://tokentool.bitbond.com/tokenlocker/0x653F885DCD642743aBF00E89EF15945A590E8Ed1/1)  
 → Listings on CoinGecko & CoinMarketCap  
 → Growth of DeFi integrations  
 
